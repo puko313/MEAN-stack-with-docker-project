@@ -1,150 +1,43 @@
-Contribution: 2016-03-21 20:00
+## Welcome to the mean stack
 
-Contribution: 2016-03-21 20:01
+The mean stack is intended to provide a simple and fun starting point for cloud native fullstack javascript applications.  
+MEAN is a set of Open Source components that together, provide an end-to-end framework for building dynamic web applications; starting from the top (code running in the browser) to the bottom (database). The stack is made up of:
 
-Contribution: 2016-03-23 20:00
+- **M**ongoDB : Document database – used by your back-end application to store its data as JSON (JavaScript Object Notation) documents
+- **E**xpress (sometimes referred to as Express.js): Back-end web application framework running on top of Node.js
+- **A**ngular (formerly Angular.js): Front-end web app framework; runs your JavaScript code in the user's browser, allowing your application UI to be dynamic
+- **N**ode.js : JavaScript runtime environment – lets you implement your application back-end in JavaScript
 
-Contribution: 2016-03-29 20:00
+### Pre-requisites
 
-Contribution: 2016-03-29 20:01
+- git - [Installation guide](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) .
+- node.js - [Download page](https://nodejs.org/en/download/) .
+- npm - comes with node or download yarn - [Download page](https://yarnpkg.com/lang/en/docs/install) .
+- mongodb - [Download page](https://www.mongodb.com/download-center/community) .
 
-Contribution: 2016-03-29 20:02
+### Installation
 
-Contribution: 2016-03-31 20:00
+```
+git clone https://github.com/sailing-dev/mean-stack-with-docker-project
+cd mean
+cp .env.example .env
+yarn
+yarn start (for development)
+```
 
-Contribution: 2016-04-02 20:00
+### Docker based
 
-Contribution: 2016-04-02 20:01
+> ⚠️ Make sure your Docker version is 19.03.0+.
 
-Contribution: 2016-04-09 20:00
+```
+git clone https://github.com/sailing-dev/mean-stack-with-docker-project
+cd mean
+cp .env.example .env
+docker-compose up -d
+```
 
-Contribution: 2016-04-09 20:01
+### Credits
 
-Contribution: 2016-04-13 20:00
-
-Contribution: 2016-04-13 20:01
-
-Contribution: 2016-04-13 20:02
-
-Contribution: 2016-04-16 20:00
-
-Contribution: 2016-04-18 20:00
-
-Contribution: 2016-04-18 20:01
-
-Contribution: 2016-04-18 20:02
-
-Contribution: 2016-04-22 20:00
-
-Contribution: 2016-04-22 20:01
-
-Contribution: 2016-04-22 20:02
-
-Contribution: 2016-04-25 20:00
-
-Contribution: 2016-04-25 20:01
-
-Contribution: 2016-04-25 20:02
-
-Contribution: 2016-04-26 20:00
-
-Contribution: 2016-04-26 20:01
-
-Contribution: 2016-04-26 20:02
-
-Contribution: 2016-04-28 20:00
-
-Contribution: 2016-04-30 20:00
-
-Contribution: 2016-04-30 20:01
-
-Contribution: 2016-04-30 20:02
-
-Contribution: 2016-05-01 20:00
-
-Contribution: 2016-05-07 20:00
-
-Contribution: 2016-05-07 20:01
-
-Contribution: 2016-05-08 20:00
-
-Contribution: 2016-05-08 20:01
-
-Contribution: 2016-05-08 20:02
-
-Contribution: 2016-05-10 20:00
-
-Contribution: 2016-05-10 20:01
-
-Contribution: 2016-05-15 20:00
-
-Contribution: 2016-05-15 20:01
-
-Contribution: 2016-05-16 20:00
-
-Contribution: 2016-05-17 20:00
-
-Contribution: 2016-05-18 20:00
-
-Contribution: 2016-05-20 20:00
-
-Contribution: 2016-05-20 20:01
-
-Contribution: 2016-05-22 20:00
-
-Contribution: 2016-05-22 20:01
-
-Contribution: 2016-05-22 20:02
-
-Contribution: 2016-05-24 20:00
-
-Contribution: 2016-05-24 20:01
-
-Contribution: 2016-05-25 20:00
-
-Contribution: 2016-05-26 20:00
-
-Contribution: 2016-05-29 20:00
-
-Contribution: 2016-05-29 20:01
-
-Contribution: 2016-05-29 20:02
-
-Contribution: 2016-06-03 20:00
-
-Contribution: 2016-06-03 20:01
-
-Contribution: 2016-06-03 20:02
-
-Contribution: 2016-06-04 20:00
-
-Contribution: 2016-06-04 20:01
-
-Contribution: 2016-06-05 20:00
-
-Contribution: 2016-06-05 20:01
-
-Contribution: 2016-06-06 20:00
-
-Contribution: 2016-06-08 20:00
-
-Contribution: 2016-06-09 20:00
-
-Contribution: 2016-06-09 20:01
-
-Contribution: 2016-06-10 20:00
-
-Contribution: 2016-06-10 20:01
-
-Contribution: 2016-06-15 20:00
-
-Contribution: 2016-06-15 20:01
-
-Contribution: 2016-06-15 20:02
-
-Contribution: 2016-06-16 20:00
-
-Contribution: 2016-06-16 20:01
-
-Contribution: 2016-06-16 20:02
-
+- The MEAN name was coined by Valeri Karpov.
+- Initial concept and development was done by Amos Haviv and sponsered by Linnovate.
+- Inspired by the great work of Madhusudhan Srinivasa.
